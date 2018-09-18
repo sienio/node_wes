@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   };
   // res.send('Hey! It works!');
   // res.json(wes)
-  res.send(req.query)
+  res.json(wes)
 });
 
 router.get('/reverse/:name', (req,res)=>{
